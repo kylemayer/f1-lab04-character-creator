@@ -1,5 +1,5 @@
 body {
-    background-color: silver;
+    background-color: #130d44;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,12 +17,24 @@ main {
     align-items: center;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #41599e;
+    border-radius: 50%;
+    background-color: #0D0221;
+    border: 2px solid black;
+    width: 750px;
+    height: 350px;
+    padding: 40px;
+}
 
 button {
     border-radius: 5px;
-    background-image: linear-gradient(rgb(30, 35, 63), rgb(68, 66, 199));
+    background-image: linear-gradient(rgb(194, 231, 217), rgb(105, 153, 160));
     border: 4px rgb(255, 255, 255) groove;
-    color: rgb(197, 194, 194);
+    color: #0F084B;
     margin: 10px;
     width: 50%;
     height: 30px;
@@ -37,13 +49,24 @@ input {
     width: 300px;
 }
 
+.imageDiv {
+    display: flex;
+}
+
 img {
     height: 250px;
     width: 300px;
     border-radius: 30px;
     margin: 20px;
+    border: 2px white groove;
 }
 
 h1 {
-    color: rgb(19, 19, 99);
+    color: #26408B;
+    text-shadow: -1.5px 0 rgb(238, 231, 231), 0 1px rgb(81, 57, 202), 1px 0 rgb(81, 57, 202), 0 -1px rgb(81, 57, 202);
+    font-size: 45px;
+}
+p {
+    font-size: larger;
+    color: #5a98a1;
 }
