@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Character</title>
     <link rel="stylesheet" href="./styles.css">
 
 </head>
+
 <body>
 
-<main>
-    <h1>Create a character!</h1>
-    <p>On a scale of 1-10, enter below...</p>
-    <input id="input-feeling" placeholder="How are you feeling?" />
-    <input id='input-energy' placeholder="What's your energy level?" />
-    <button id="submit">Submit</button>
-    <img id="image-area"></img>
-    <img id="image-area-2"></img>
-</main>
+    <main>
 
-<script type="module" src="./app.js"></script>
+        <section>
+            <h1>Create a character!</h1>
+            <p>On a scale of 1-10, enter below...</p>
+            <input id="input-feeling" placeholder="How are you feeling?" />
+            <input id='input-energy' placeholder="What's your energy level?" />
+            <button id="submit">Submit</button>
+        </section>
+        <div class="imageDiv">
+            <img id="image-area"></img>
+            <img id="image-area-2"></img>
+        </div>
+    </main>
+
+    <script type="module" src="./app.js"></script>
 
 </body>
+
 </html>
