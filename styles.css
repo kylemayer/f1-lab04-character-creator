@@ -4,20 +4,28 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main {
     width: 400px;
     padding-top: 10%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 button {
     border-radius: 5px;
-    background-color: black;
-    color: white;
+    background-image: linear-gradient(rgb(30, 35, 63), rgb(68, 66, 199));
+    border: 4px rgb(255, 255, 255) groove;
+    color: rgb(197, 194, 194);
     margin: 10px;
+    width: 50%;
+    height: 30px;
 }
 
 input {
@@ -27,4 +35,15 @@ input {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     width: 300px;
+}
+
+img {
+    height: 250px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+h1 {
+    color: rgb(19, 19, 99);
 }
